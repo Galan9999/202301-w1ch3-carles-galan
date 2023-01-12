@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./style.css" />
     <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon" />
-    <title>listacompra</title>
+    <title>Lista de la compra</title>
   </head>
   <body>
     <div>
@@ -15,27 +15,83 @@
           <h1>lista de la compra</h1>
           <nav class="menu">
             <ul>
-              <li><a href="#">principal</a></li>
-              <br>    
+              <li><a href="#">principal</a></li>   
               <li><a href="#">lista</a></li>
               <li><a href="#">acerca de</a></li>
             </ul>
           </nav>
         </header>
 
-        <div> 
-          <button class="+">+</button>
+        <section> 
+          <a href="" class="+">+</a>
           <h2>2/3 comprados</h2>
-        </div>
+          </section>
 
-        <div> 
-          <ul>  
-            <li>pan</li>
-            <li>azúcar</li>
-            <li>leche</li>
-            <li>tofu</li>
+      
+        
+        <main>
+          <ul class="lista-compra"> 
+            
+            <li>
+              <div class="lista-compra-item">
+                <label>
+                  <input type="checkbox">pan
+                </label>
+                <span class="precio">"0.75€"
+                <i class="fa-solid fa-xmark">
+                  ::before
+                </i>
+                </span>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="lista-compra-item">
+                <label>
+                  <input type="checkbox">azúcar
+                </label>
+                <span class="precio">"0.75€"
+                <i class="fa-solid fa-xmark">
+                  ::before
+                </i>
+                </span>
+
+              </div>
+            </li>
+            
+            <li>
+              <div class="lista-compra-item">
+                <label>
+                  <input type="checkbox">leche
+                </label>
+                <span class="precio">"0.75€"
+                <i class="fa-solid fa-xmark">
+                  ::before
+                </i>
+                </span>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="lista-compra-item">
+                <label>
+                  <input type="checkbox">tofu
+                </label>
+                <span class="precio">"4.35€"
+                <i class="fa-solid fa-xmark">
+                  ::before
+                </i>
+                </span>
+
+              </div>
+            </li>
+            
 
           </ul>
-        </div>
+
+        </main>
+        
   </body>
 </html>
